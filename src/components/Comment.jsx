@@ -6,7 +6,7 @@ import styles from './Comment.module.css';
 
 export function Comment({ content, onDeleteComment }) {
     function handleDeleteComment (){
-        onDeleteComment(comment);
+        onDeleteComment(content);
     }
 
     return(
